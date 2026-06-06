@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Queen of Sheba | Salone di Bellezza Pomezia</title>
+  <meta name="description" content="Gallery fotografica di Queen of Sheba a Pomezia: taglio, colore, balayage, unghie, makeup e molto altro. I migliori lavori del nostro team.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="nav" role="navigation" aria-label="Navigazione principale">
+    <div class="container">
+      <a href="index.html" class="nav-logo">
+        <span class="brand-name">Queen of Sheba</span>
+        <span class="brand-subtitle">Salone di Bellezza & Centro Estetico — Pomezia</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="servizi.html">Servizi</a>
+        <a href="prezzi.html">Prezzi</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="chi-siamo.html">Chi Siamo</a>
+        <a href="contatti.html">Contatti</a>
+        <a href="contatti.html" class="nav-cta btn btn-primary">Prenota →</a>
+      </div>
+      <div class="hamburger" role="button" aria-label="Menu" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" role="dialog" aria-label="Menu navigazione">
+    <a href="index.html">Home</a>
+    <a href="servizi.html">Servizi</a>
+    <a href="prezzi.html">Prezzi</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="chi-siamo.html">Chi Siamo</a>
+    <a href="contatti.html">Contatti</a>
+    <a href="contatti.html" class="btn btn-primary" style="margin-top:16px;">Prenota →</a>
+  </div>
+
+  <div class="page-header">
+    <div class="page-header-bg">
+      <img src="images/queen-of-sheba-gallery-2-color.png" alt="Gallery Queen of Sheba Pomezia">
+    </div>
+    <div class="page-header-overlay"></div>
+    <div class="page-header-content">
+      <h1>Gallery</h1>
+      <p>I nostri migliori lavori.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="gallery-filters fade-in-up">
+        <button class="filter-pill active" data-filter="all">Tutti</button>
+        <button class="filter-pill" data-filter="taglio">Taglio</button>
+        <button class="filter-pill" data-filter="colore">Colore</button>
+        <button class="filter-pill" data-filter="unghie">Unghie</button>
+        <button class="filter-pill" data-filter="makeup">Makeup</button>
+      </div>
+
+      <div class="gallery-grid fade-in-up">
+        <div class="gallery-item" data-category="taglio">
+          <img src="images/queen-of-sheba-gallery-1-before-after.png" alt="Before e After - Taglio capelli Queen of Sheba" loading="lazy">
+          <div class="gallery-overlay">
+            <span>Before & After</span>
+            <small>Taglio Donna</small>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="colore">
+          <img src="images/queen-of-sheba-gallery-2-color.png" alt="Balayage - Colore Queen of Sheba" loading="lazy">
+          <div class="gallery-overlay">
+            <span>Balayage</span>
+            <small>Colore - Maria</small>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="makeup">
+          <img src="images/queen-of-sheba-gallery-3-makeup.png" alt="Trucco elegante - Makeup Queen of Sheba" loading="lazy">
+          <div class="gallery-overlay">
+            <span>Trucco Sera</span>
+            <small>Makeup - Sofia</small>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="taglio">
+          <img src="images/queen-of-sheba-service-taglio.png" alt="Taglio e piega Queen of Sheba" loading="lazy">
+          <div class="gallery-overlay">
+            <span>Taglio & Piega</span>
+            <small>Acconciatura</small>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="unghie">
+          <img src="images/queen-of-sheba-service-unghie.png" alt="Manicure e unghie Queen of Sheba" loading="lazy">
+          <div class="gallery-overlay">
+            <span>Nail Art</span>
+            <small>Unghie - Giulia</small>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="colore">
+          <img src="images/queen-of-sheba-service-trattamenti.png" alt="Trattamento viso Queen of Sheba" loading="lazy">
+          <div class="gallery-overlay">
+            <span>Trattamento Viso</span>
+            <small>Skincare</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-load-more">
+        <p style="color:var(--muted); font-size:14px;">Clicca su una foto per ingrandirla</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>Prenota il tuo appuntamento</h2>
+      <div class="gold-divider">✦</div>
+      <p>Desideri un look come quelli della nostra gallery? Contattaci!</p>
+      <a href="contatti.html" class="btn btn-primary">Prenota Ora →</a>
+      <div class="cta-phone">+39 06 1234 5678</div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>Queen of Sheba</h3>
+          <p>Salone di Bellezza & Centro Estetico<br>Via Roma 123, 00071 Pomezia (RM)</p>
+          <p>Tel: +39 06 1234 5678<br>Email: info@queenofshebapomezia.it</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="Facebook">👍</a>
+            <a href="#" aria-label="WhatsApp">💬</a>
+          </div>
+        </div>
+        <div>
+          <h3>Servizi</h3>
+          <ul>
+            <li><a href="servizi.html">Taglio e Acconciatura</a></li>
+            <li><a href="servizi.html">Colore</a></li>
+            <li><a href="servizi.html">Trattamenti Viso e Corpo</a></li>
+            <li><a href="servizi.html">Unghie</a></li>
+            <li><a href="servizi.html">Makeup</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contatti</h3>
+          <ul>
+            <li><a href="contatti.html">Contattaci</a></li>
+            <li><a href="contatti.html">Prenota un appuntamento</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="prezzi.html">Listino Prezzi</a></li>
+            <li><a href="chi-siamo.html">Chi Siamo</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Queen of Sheba — Salone di Bellezza & Centro Estetico — Pomezia (RM) | Realizzato da Vivacity AI Web Team</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/390612345678" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contattaci su WhatsApp">💬</a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
